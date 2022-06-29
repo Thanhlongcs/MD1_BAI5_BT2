@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="main.js"></script>
+</head>
+<body>
+  <label>Amount</label><br>
+    <input id="number" type="number"><br>
+  <label>From currency:</label><br>
+    <select  name="currency" id="currency" onchange="Convert()"><br>
+    <option value="vietnam">VND</option>
+    <option value="USD">USD</option>
+</select><br>
+   <label>to currency:</label><br>
+    <select  name="currency" id="currency2" onchange="Convert()"><br>
+    <option value="USD">USD</option>
+    <option value="vietnam">VND</option>
+</select><br><br>
+    <button onclick="Convert() "> Convert</button>
+    <h1 id="change"></h1>
+</body>
+</html>
